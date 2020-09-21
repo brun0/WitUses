@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <st-source>
-<time-stamp>From VisualWorks® NonCommercial, 7.6 of lundi 3 mars 2008 on lundi 21 septembre 2020 at 4:28:03</time-stamp>
+<time-stamp>From VisualWorks® NonCommercial, 7.6 of lundi 3 mars 2008 on lundi 21 septembre 2020 at 4:30:49</time-stamp>
 <!-- Package WitUses* -->
 
 
@@ -13038,6 +13038,10 @@ WitUses thePlots do: [:p | ((p x &lt;= 6) and: [p y &lt;= 6]) ifTrue: [self myTe
 
  --------------------- WitUses 01 07 20 Five Implementers.st --------------------- Date: 2020.3.31
 
+ *** Developer: Patrick D"aquino  ***
+
+ --------------------- WitUses 01 07 20 Five Implementers.st --------------------- Date: 2020.3.31
+
  *** Developer: Patrick D"aquino  ***'</body>
 
 <body package="WitUses">emails
@@ -14095,7 +14099,7 @@ self theUsers do: [:u | self theSeasonPlotUses do: [:spu | (spu hostedPlot = u p
 			spu hostedPlot: p].</body>
 
 <body package="WitUses">initCalibration
-
+	"initialize a calibration entity"
 	self createN: 1 entity: Calibration.</body>
 
 <body package="WitUses">initSeasonRessProviderUses
